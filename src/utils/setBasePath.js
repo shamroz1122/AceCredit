@@ -2,7 +2,7 @@ import axios from "axios";
 
 const setBasePath = () => {
 
-        axios.defaults.baseURL = 'https://buddy.na/api/v1/signage'
+        axios.defaults.baseURL = 'https://itace.website/acecredit/api'
 
 }
 

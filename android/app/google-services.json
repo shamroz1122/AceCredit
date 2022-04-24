@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "209623650132",
+    "project_id": "acecredit-b4ae4",
+    "storage_bucket": "acecredit-b4ae4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209623650132:android:91bc64125d3b8fc7fdc2c1",
+        "android_client_info": {
+          "package_name": "com.acecredit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209623650132-9lbkhli0805pc4nu0c3lnjktv0scgo2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfnM_lfYM-J718jW1GMm7zPKbc3A2LZj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209623650132-9lbkhli0805pc4nu0c3lnjktv0scgo2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

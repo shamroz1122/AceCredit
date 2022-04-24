@@ -6,6 +6,7 @@ import MainStackNavigator from './MainStackNavigator';
 
 function AppNavigator(props) {
 
+
     if (props.isLoadingApp) {
         // We haven't finished checking for the token yet
         return <AuthLoadingScreen />;

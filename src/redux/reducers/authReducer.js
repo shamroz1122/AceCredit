@@ -1,9 +1,14 @@
 const initState = {
   authError: null,
-  data: {},
   isAuthenticated: false,
   isLoadingApp: true,
-
+  signUpError: null,
+  user: {},
+  profile: {},
+  profileUpdateError: null,
+  uploadedAttachment: {},
+  uploadedAttachmentError: null,
+  deviceToken: ''
 }
 
 const authReducer = (state = initState, action) => {
@@ -13,11 +18,16 @@ const authReducer = (state = initState, action) => {
         ...state,
         authError: action.msg,
       }
+    case 'SIGN_UP_ERROR':
+      return {
+        ...state,
+        signUpError: action.msg
+      }
     case 'LOGIN_SUCCESS':
       return {
         ...state,
         authError: null,
-        data: action.data,
+        user: action.data,
         isAuthenticated: true,
         isLoadingApp: false
       }
@@ -30,14 +40,48 @@ const authReducer = (state = initState, action) => {
       return {
         ...state,
         authError: null,
-        data: {},
+        user: {},
         isAuthenticated: false,
         isLoadingApp: false
       }
+    case 'PROFILE_UPDATE_SUCCESS':
+      return {
+        ...state,
+        profile: action.profile
+      }
+    case 'PROFILE_UPDATE_ERROR':
+      return {
+        ...state,
+        profileUpdateError: action.msg,
+
+      }
+    case 'UPLOAD_ATTACHMENT_SUCCESS':
+      return {
+        ...state,
+        uploadedAttachment: action.uploadedAttachment,
+        uploadedAttachmentError: null,
+
+      }
+    case 'UPLOAD_ATTACHMENT_ERROR':
+      return {
+        ...state,
+        uploadedAttachment: {},
+        uploadedAttachmentError: action.msg,
+      }
+    case 'SET_DEVICE_TOKEN':
+      return {
+        ...state,
+        deviceToken: action.deviceToken,
+
+      }
+
     case 'CLEAR_MESSAGES':
       return {
         ...state,
         authError: null,
+        uploadedAttachment: {},
+        uploadedAttachmentError: null,
+        profileUpdateError: null
       }
     default:
       return state

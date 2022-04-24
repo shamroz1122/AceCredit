@@ -12,9 +12,9 @@ class Logout extends React.Component {
 
   _AppAsync = async () => {
 
-    const data = await AsyncStorage.getItem('Data');
-    this.props.dispatch(logOutUser(data));
-    this.props.navigation.navigate('DownloadingMedia');
+    const User = await AsyncStorage.getItem('User');
+    this.props.dispatch(logOutUser(User));
+    // this.props.navigation.navigate('Login');
   }
 
   // Render any loading content that you like here

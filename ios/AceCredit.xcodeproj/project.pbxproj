@@ -27,6 +27,7 @@
 		8941F0D8C62FE1A3AB2C87E0 /* libPods-AceCredit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8ABDAFB6E515C1291B10A3 /* libPods-AceCredit.a */; };
 		9280E00F99A245CE9A134C25 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7748C97A2F4F4A7AB256DAD0 /* SimpleLineIcons.ttf */; };
 		94C044A1737445FEAE019473 /* Outfit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F69337A01296416A8EB292E3 /* Outfit-Medium.ttf */; };
+		B3C0C2721492CAA7ADA01C83 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8264ADDCC5A6A5A2A8C47A0D /* ExpoModulesProvider.swift */; };
 		B4D62466E6C84AE19A8E9B95 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA89810890D4DBDAE7DB135 /* Ionicons.ttf */; };
 		BF2B259527DCD7AE00489FAC /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B258527DCD7AE00489FAC /* Fontisto.ttf */; };
 		BF2B259627DCD7AE00489FAC /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B258627DCD7AE00489FAC /* Octicons.ttf */; };
@@ -48,6 +49,7 @@
 		CABDAE61F83348BBA1945E3B /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 106C381992B94AD9978D935C /* MaterialCommunityIcons.ttf */; };
 		DFA78502356344B3ACEDD121 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5993FE35AED49BF92B4E224 /* Octicons.ttf */; };
 		EAF2601552584FCAA6DE0491 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD638B799977487593BBC9EA /* Foundation.ttf */; };
+		EDAA3DAB910ADEF443A1AF0B /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379902093C5572499B9AE7A8 /* ExpoModulesProvider.swift */; };
 		F168DCB8A9EA4D06BB6E4314 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC2F7A52002D4E6885405874 /* EvilIcons.ttf */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +75,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AceCredit/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AceCredit/main.m; sourceTree = "<group>"; };
 		2AA89810890D4DBDAE7DB135 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		379902093C5572499B9AE7A8 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-AceCredit-AceCreditTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		3A189C86143747539FEA87A9 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		3D8ABDAFB6E515C1291B10A3 /* libPods-AceCredit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AceCredit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42485CE3ACBC455F9842CD13 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
@@ -85,6 +88,7 @@
 		6CF6EEF4F3354444B8F8FE33 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		7748C97A2F4F4A7AB256DAD0 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AceCredit/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8264ADDCC5A6A5A2A8C47A0D /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-AceCredit/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		88FD7F97B083448D8F27D5F2 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		91A01ECF445D486B0E4A5769 /* Pods-AceCredit-AceCreditTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AceCredit-AceCreditTests.release.xcconfig"; path = "Target Support Files/Pods-AceCredit-AceCreditTests/Pods-AceCredit-AceCreditTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E5CB730323C47D1B15FC5B0 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
@@ -109,6 +113,7 @@
 		BF2B259327DCD7AE00489FAC /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		BF2B259427DCD7AE00489FAC /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 		BF712A4827E0869800FC56C3 /* Outfit-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Outfit-Bold.ttf"; path = "../assets/fonts/Outfit-Bold.ttf"; sourceTree = "<group>"; };
+		BFEF46B6281451DF00240E53 /* AceCredit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = AceCredit.entitlements; path = AceCredit/AceCredit.entitlements; sourceTree = "<group>"; };
 		D2C11948877B31E5ACBD84D3 /* Pods-AceCredit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AceCredit.release.xcconfig"; path = "Target Support Files/Pods-AceCredit/Pods-AceCredit.release.xcconfig"; sourceTree = "<group>"; };
 		E31EE39570946443813B49E2 /* Pods-AceCredit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AceCredit.debug.xcconfig"; path = "Target Support Files/Pods-AceCredit/Pods-AceCredit.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -157,6 +162,7 @@
 		13B07FAE1A68108700A75B9A /* AceCredit */ = {
 			isa = PBXGroup;
 			children = (
+				BFEF46B6281451DF00240E53 /* AceCredit.entitlements */,
 				BF2B258427DCD7AE00489FAC /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -195,6 +201,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				F932F05A202CDFBCC4E0A807 /* Pods */,
 				FF1ABC6DC0A54700879101BD /* Resources */,
+				C0E519E9DF788491E11E7FCB /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -208,6 +215,14 @@
 				00E356EE1AD99517003FC87E /* AceCreditTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9A7BF9C30717744DCE9B7179 /* AceCredit */ = {
+			isa = PBXGroup;
+			children = (
+				8264ADDCC5A6A5A2A8C47A0D /* ExpoModulesProvider.swift */,
+			);
+			name = AceCredit;
 			sourceTree = "<group>";
 		};
 		BF2B258427DCD7AE00489FAC /* Fonts */ = {
@@ -232,6 +247,23 @@
 			);
 			name = Fonts;
 			path = "../node_modules/react-native-vector-icons/Fonts";
+			sourceTree = "<group>";
+		};
+		C0E519E9DF788491E11E7FCB /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BF9C30717744DCE9B7179 /* AceCredit */,
+				F1B13B0DDAB4B28561A60004 /* AceCreditTests */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		F1B13B0DDAB4B28561A60004 /* AceCreditTests */ = {
+			isa = PBXGroup;
+			children = (
+				379902093C5572499B9AE7A8 /* ExpoModulesProvider.swift */,
+			);
+			name = AceCreditTests;
 			sourceTree = "<group>";
 		};
 		F932F05A202CDFBCC4E0A807 /* Pods */ = {
@@ -562,6 +594,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* AceCreditTests.m in Sources */,
+				EDAA3DAB910ADEF443A1AF0B /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,6 +604,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				B3C0C2721492CAA7ADA01C83 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +629,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = AceCreditTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -619,7 +653,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = AceCreditTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -642,6 +676,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AceCredit/AceCredit.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AceCredit/Info.plist;
@@ -668,6 +703,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AceCredit/AceCredit.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = AceCredit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -735,7 +771,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -793,7 +829,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
