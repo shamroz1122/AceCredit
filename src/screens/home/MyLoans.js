@@ -425,7 +425,7 @@ function MyLoans(props) {
 
         if (Object.keys(props.loans).length) {
 
-            console.log(props.loans.all)
+            //console.log(props.loans.all)
             setState((state) => ({
                 ...state,
                 isLoanLaoding: false,

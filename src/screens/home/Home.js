@@ -130,7 +130,6 @@ function Home(props) {
             }))
             props.clearPackagesMessages()
         }
-
         // setState((state) => ({
         //     ...state,
         //     isPackagesLoading: false,
@@ -138,23 +137,19 @@ function Home(props) {
 
         if (props.getPackagesError) {
             console.log('error occured', props.getPackagesError)
-
         }
 
     }, [props.getPackagesError, props.packages])
 
-
     const _renderItem = ({ item, index }) => {
 
         return (
-
             <Pressable onPress={() => props.navigation.navigate('ApplyLoan', { item: item })} style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
 
                 {({
                     isPressed
                 }) => {
                     return <ImageBackground source={cardImage} resizeMode="cover" style={{
-
 
                         width: '100%',
                         height: 140,

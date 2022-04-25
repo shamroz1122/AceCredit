@@ -1,9 +1,7 @@
 import axios from "axios";
 
 const setBasePath = () => {
-
-        axios.defaults.baseURL = 'https://itace.website/acecredit/api'
-
+        axios.defaults.baseURL = 'https://upah.me/api'
 }
 
 export default setBasePath;
